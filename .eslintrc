@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "react-app",
+    "prettier"
+  ],
+  "parser": "@babel/eslint-parser",
+  "rules": {
+    "no-console": "warn",
+    //console.log 사용 시 경고
+    "no-unused-vars": "error"
+    //할당되지 않은 변수 있을 시 경고
+  }
+}
