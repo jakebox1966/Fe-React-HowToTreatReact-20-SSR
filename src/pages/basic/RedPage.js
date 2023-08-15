@@ -1,5 +1,5 @@
 import React from 'react'
-import Red from '../components/Red'
+import Red from '../../components/basic/Red'
 
 const RedPage = () => {
     return <Red />

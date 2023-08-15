@@ -1,5 +1,5 @@
 import React from 'react'
-import Blue from '../components/Blue'
+import Blue from '../../components/basic/Blue'
 
 const BluePage = () => {
     return <Blue />
